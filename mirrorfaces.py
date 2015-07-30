@@ -13,7 +13,7 @@ def showarray(a, fmt='jpeg'):
     PIL.Image.fromarray(a).save(f, fmt)
     #display(Image(data=f.getvalue()))
 
-model_path = '/Users/kirkkaiser/caffe/models/faces_net/' # substitute your path here
+model_path = '../caffe/models/faces_net/' # substitute your path here
 mean_filename= model_path + 'mean.binaryproto'
 proto_data = open(mean_filename, "rb").read()
 a = caffe.io.caffe_pb2.BlobProto.FromString(proto_data)
