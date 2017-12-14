@@ -2,8 +2,7 @@
 
 Generating Glitched Faces to Confuse Facial Recognition Neural Networks
 
-![Image of Deep Graffiti]
-(https://raw.githubusercontent.com/burningion/deepgraffiti/master/success.jpg)
+![Image of Deep Graffiti](https://raw.githubusercontent.com/burningion/deepgraffiti/master/success.jpg)
 
 You'll need to have Caffe installed, and also the Age Net from the Model Zoo. By default I've left GPU mode enabled, you'll probably want to disable that.
 
